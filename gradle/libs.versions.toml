@@ -1,0 +1,10 @@
+[versions]
+tomlkt = "0.4.0"
+styx-common = "0.4.1"
+
+[libraries]
+tomlkt = { module = "net.peanuuutz.tomlkt:tomlkt", version.ref = "tomlkt" }
+styx-common = { module = "moe.styx:styx-common-jvm", version.ref = "styx-common" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
